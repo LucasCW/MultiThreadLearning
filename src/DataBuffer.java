@@ -32,5 +32,7 @@ public class DataBuffer {
 		System.out.println("Data " + data + " produced by " + producerName);
 		currentSize++;
 		notifyAll();
+		
+		Integer aInteger =new Integer(4);
 	}
 }
